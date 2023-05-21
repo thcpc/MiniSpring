@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class UserService {
+public class UserService {
+    public void query(){
+        System.out.println("query info");
+    }
 }
