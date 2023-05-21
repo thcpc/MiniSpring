@@ -1,4 +1,4 @@
-package org.example;
+package cn.mini.springframework;
 
 public class Main {
     public static void main(String[] args) {
