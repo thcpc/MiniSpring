@@ -1,4 +1,4 @@
-package cn.mini.springframework.config;
+package cn.mini.springframework.beans.factory.config;
 
 public interface SingletonBeanRegistry {
     Object getSingleton(String beanName);

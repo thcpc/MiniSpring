@@ -1,4 +1,4 @@
-package cn.mini.springframework;
+package cn.mini.springframework.beans;
 
 public class PropertyValue {
     private String name;

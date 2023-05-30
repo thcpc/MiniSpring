@@ -1,4 +1,4 @@
-package cn.mini.springframework;
+package cn.mini.springframework.beans;
 
 import java.util.LinkedList;
 import java.util.List;

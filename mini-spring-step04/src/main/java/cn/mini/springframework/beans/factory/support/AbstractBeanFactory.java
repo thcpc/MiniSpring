@@ -1,8 +1,8 @@
-package cn.mini.springframework.factory;
+package cn.mini.springframework.beans.factory.support;
 
-import cn.mini.springframework.beans.BeanFactory;
+import cn.mini.springframework.beans.factory.BeanFactory;
 import cn.mini.springframework.beans.BeansException;
-import cn.mini.springframework.beans.config.BeanDefinition;
+import cn.mini.springframework.beans.factory.config.BeanDefinition;
 
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
 

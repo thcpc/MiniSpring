@@ -1,6 +1,6 @@
-package cn.mini.springframework.factory;
+package cn.mini.springframework.beans.factory.support;
 
-import cn.mini.springframework.beans.config.BeanDefinition;
+import cn.mini.springframework.beans.factory.config.BeanDefinition;
 
 import java.lang.reflect.Constructor;
 
