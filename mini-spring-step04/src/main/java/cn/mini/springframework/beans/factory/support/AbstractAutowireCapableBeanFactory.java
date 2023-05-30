@@ -1,6 +1,7 @@
 package cn.mini.springframework.beans.factory.support;
 
-import cn.mini.springframework.beans.BeanUtils;
+
+import cn.hutool.core.bean.BeanUtil;
 import cn.mini.springframework.beans.BeansException;
 import cn.mini.springframework.beans.PropertyValue;
 import cn.mini.springframework.beans.PropertyValues;
@@ -49,7 +50,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
                 if (value instanceof BeanReference) {
                     BeanReference beanReference = (BeanReference) value;
                     value = getBean(beanReference.getBeanName());
-                    BeanUtils.setFieldValue(bean, name, value);
+                    BeanUtil.setFieldValue(bean, name, value);
                 }
             }
         } catch (Exception e) {
