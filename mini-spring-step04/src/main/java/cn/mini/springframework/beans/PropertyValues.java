@@ -15,6 +15,7 @@ public class PropertyValues {
     }
 
     public PropertyValue[] getPropertyValues(){
-        return this.propertyValues.toArray(new PropertyValue[0]);
+        return this.propertyValues.toArray(new PropertyValue[0]
+        );
     }
 }
