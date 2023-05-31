@@ -22,7 +22,7 @@ public class BeanDefinition {
     }
 
     public BeanDefinition(Class beanClass) {
-        this.beanClass = beanClass;
+        this(beanClass, null);
     }
 
     public Class getBeanClass() {
