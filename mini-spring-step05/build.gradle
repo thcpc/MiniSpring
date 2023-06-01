@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'cn.mini.springframework.beans'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'cglib:cglib:3.3.0'
+    implementation 'cn.hutool:hutool-all:5.5.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
