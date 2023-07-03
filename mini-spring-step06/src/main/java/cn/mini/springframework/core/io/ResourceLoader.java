@@ -1,4 +1,4 @@
-package cn.mini.springframework.io;
+package cn.mini.springframework.core.io;
 
 public interface ResourceLoader {
     String CLASSPATH_URL_PREFIX = "classpath:";

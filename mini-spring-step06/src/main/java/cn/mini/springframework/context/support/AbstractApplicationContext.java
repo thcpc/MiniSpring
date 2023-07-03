@@ -1,12 +1,11 @@
 package cn.mini.springframework.context.support;
 
 import cn.mini.springframework.beans.BeansException;
-import cn.mini.springframework.beans.factory.BeanFactory;
 import cn.mini.springframework.beans.factory.ConfigurableListableBeanFactory;
 import cn.mini.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import cn.mini.springframework.beans.factory.config.BeanPostProcessor;
 import cn.mini.springframework.context.ConfigurableApplicationContext;
-import cn.mini.springframework.io.DefaultResourceLoader;
+import cn.mini.springframework.core.io.DefaultResourceLoader;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package cn.mini.springframework.io;
+package cn.mini.springframework.core.io;
 
 import cn.mini.springframework.utils.ClassUtils;
 
