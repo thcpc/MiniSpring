@@ -10,4 +10,5 @@ public interface BeanDefinitionReader {
     void loadBeanDefinition(Resource resource) throws BeansException;
     void loadBeanDefinition(Resource... resources) throws BeansException;
     void loadBeanDefinition(String location) throws BeansException;
+    void loadBeanDefinition(String... locations) throws BeansException;
 }

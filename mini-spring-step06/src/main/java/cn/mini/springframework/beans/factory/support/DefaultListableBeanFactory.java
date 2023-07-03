@@ -8,7 +8,7 @@ import cn.mini.springframework.beans.factory.config.BeanPostProcessor;
 import java.util.HashMap;
 import java.util.Map;
 
-public abstract class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFactory implements BeanDefinitionRegistry, ConfigurableListableBeanFactory {
+public  class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFactory implements BeanDefinitionRegistry, ConfigurableListableBeanFactory {
     private Map<String, BeanDefinition> beanDefinitionMap = new HashMap<>();
 
     @Override
@@ -25,10 +25,10 @@ public abstract class DefaultListableBeanFactory extends AbstractAutowireCapable
         beanDefinitionMap.keySet().forEach(this::getBean);
     }
 
-    @Override
-    public void addBeanPostProcessor(BeanPostProcessor beanPostProcessor) {
-
-    }
+//    @Override
+//    public void addBeanPostProcessor(BeanPostProcessor beanPostProcessor) {
+//
+//    }
 
     @Override
     public void registerBeanDefinition(String beanName, BeanDefinition beanDefinition) {
